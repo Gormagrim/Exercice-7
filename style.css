@@ -1,0 +1,55 @@
+.identity{
+  width:auto;
+  height:120px;
+  background-color:#2574A9;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  margin-top: -10px;
+  margin-right: 0px;
+}
+fieldset{
+  margin-right: -2px;
+  margin-left: -2px;
+  margin-bottom: 20px;
+}
+.livraison{
+  width:auto;
+  height:150px;
+  background-color:#9A12B3;
+  margin-top: -8px;
+  margin-bottom: 15px;
+  padding-bottom: 24px;
+}
+.Reglement{
+  width: auto;
+  height: 180px;
+  background-color: #DB0A5B;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  padding-bottom: 16px;
+}
+p1 mark{
+  margin-left: 10px;
+  font-size: 17px;
+  background-color: #2574A9;
+}
+p2 mark{
+  margin-left: 10px;
+  font-size: 17px;
+  background-color: #9A12B3;
+}
+p3 mark{
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 17px;
+  background-color: #DB0A5B;
+}
+input {
+  border-radius: 0px;
+}
+li{
+  margin-bottom: 2px;
+}
+textarea{
+  height: 70px;
+}
