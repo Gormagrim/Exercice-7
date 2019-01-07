@@ -4,7 +4,7 @@
   background-color:#2574A9;
   margin-bottom: 5px;
   padding-bottom: 5px;
-  margin-top: -10px;
+  margin-top: -13px;
   margin-right: 0px;
 }
 fieldset{
@@ -16,7 +16,7 @@ fieldset{
   width:auto;
   height:150px;
   background-color:#9A12B3;
-  margin-top: -8px;
+  margin-top: -13px;
   margin-bottom: 15px;
   padding-bottom: 24px;
 }
@@ -24,9 +24,9 @@ fieldset{
   width: auto;
   height: 180px;
   background-color: #DB0A5B;
-  margin-bottom: 10px;
-  margin-top: -10px;
-  padding-bottom: 16px;
+  margin-bottom: 1px;
+  margin-top: -13px;
+  padding-bottom: 3px;
 }
 p1 mark{
   margin-left: 10px;
@@ -53,3 +53,33 @@ li{
 textarea{
   height: 70px;
 }
+button{
+  border: 1px solid silver;
+}
+#VISA{
+  margin-left: 43px;
+}
+#Mastercard{
+  margin-left: 43px;
+}
+input[type=radio]{
+    display: none;
+  }
+  input[type=radio] + label:before {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 50%;
+      margin-top: -3px;
+      margin-right: 6px;
+      margin-left: 45px;
+      display: inline-block;
+      vertical-align: middle;
+      content: '';
+      width: 10px;
+      height: 10px;
+  }
+  input[type=radio]:checked + label:before {
+      background: #fb8819;
+      border-color: #fb8819;
+      box-shadow: inset 0px 0px 0px 2px #fff;
+  }
